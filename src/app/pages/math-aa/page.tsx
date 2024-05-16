@@ -31,17 +31,17 @@ const MathAA = () => {
   const [predictedMarkInClass, setPredictedMarkInClass] = useState(0);
 
   const getIBLevel = (totalScore: number) => {
-    if (totalScore >= 68 && totalScore <= 100) {
+    if (totalScore >= 79 && totalScore <= 100) {
       IBLevel = 7;
-    } else if (totalScore >= 56 && totalScore < 68) {
+    } else if (totalScore >= 64 && totalScore < 68) {
       IBLevel = 6;
-    } else if (totalScore >= 44 && totalScore < 56) {
+    } else if (totalScore >= 48 && totalScore < 56) {
       IBLevel = 5;
-    } else if (totalScore >= 32 && totalScore < 44) {
+    } else if (totalScore >= 34 && totalScore < 44) {
       IBLevel = 4;
-    } else if (totalScore >= 21 && totalScore < 32) {
+    } else if (totalScore >= 23 && totalScore < 32) {
       IBLevel = 3;
-    } else if (totalScore >= 12 && totalScore < 21) {
+    } else if (totalScore >= 11 && totalScore < 21) {
       IBLevel = 2;
     } else {
       IBLevel = 1;
